@@ -1,0 +1,21 @@
+{% extends "encyclopedia/layout.html" %}
+{% load static %}
+
+{% block title %}
+    Encyclopedia
+{% endblock %}
+{% block body %}
+    <h1 class="blue">Entry not found.</h1>
+    <hr>
+    <p>Entry '{{query}}' does not exist.</p>
+    {% if suggestions %}
+    <p class="blue">Did you mean...</p>
+    {% endif %}
+<ul>
+    {% for suggestion in suggestions %}
+    <li><a href="{{ suggestion }}">{{ suggestion }}</a></li>
+    {% endfor %}
+</ul>
+   <p class="red"> </p>
+
+{% endblock %}
