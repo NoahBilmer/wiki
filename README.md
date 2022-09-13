@@ -1,4 +1,4 @@
-# wiki
+# Wiki
 Wikipedia clone built in Python with the Django library.
 # How to run this application
 1. Fork or download the files
