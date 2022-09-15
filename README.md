@@ -1,5 +1,6 @@
 # Wiki
 Wikipedia clone built in Python with the Django library.
+This project is an implementation of [Wiki](https://cs50.harvard.edu/web/2020/projects/1/wiki/), a problem set from [CS50'S Web Programming with Python and Javascript](https://cs50.harvard.edu/web/2020)
 # How to run this application
 1. Fork or download the files
 2. Navigate to the src directory
